@@ -85,7 +85,15 @@ namespace T15._1
         /// </summary>
         public static void Output()
         {
-            WriteLine($"Name: {Name}\nSurname: {Surname}\nGender: {Gender}\nYear of birth: {Year}\nNumber of girls: {C_fem}\nNumber of boys: {C_male}\nTotal number: {count}");
+            WriteLine($"Name: {Name}\nSurname: {Surname}\nGender: {Gender}\nYear of birth: {Year}");
+        }
+        
+        ///<summary>
+        ///static method for Output
+        ///</summary>
+        public static void Num()
+        {
+            Console.WriteLine($"Number of girls: {c_fem}\nNumber of boys: {c_male}\nCount: {count}\n");
         }
 
 
