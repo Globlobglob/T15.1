@@ -65,9 +65,16 @@ namespace T15._1
         /// <summary>
         /// Output
         /// </summary>
-        public static void Output()
-        {
-            WriteLine($"Name: {Name}\nSurname: {Surname}\nTall: {Tall}\nWeight: {Weight}\nUnsuitable weight: {C_w}\nTotal number: {count}");
-        }
+       public void Output()
+       {
+        WriteLine($"Name: {Name}\nSurname: {Surname}\nTall: {Tall}\nWeight: {Weight}\n");
+       }
+        ///<summary>
+        /// Static method for output
+        ///</summary>
+      public static void GetCount() 
+       {
+        WriteLine($"Unsuitable weight: {C_w}\nTotal number: {count}");
+      }
     }
 }
