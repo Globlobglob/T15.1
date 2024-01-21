@@ -27,8 +27,9 @@ namespace T15._1
                     Write("Enter year of birth: ");
                     int year = Convert.ToInt32(ReadLine());
                     students[i] = new Students(name, surname, gender, year);
+                    students[i]=Output();
                 }
-                Students.Output();
+                Students.Num();
 
                 Write("Enter the number of sportsmens: ");
                 int num2 = Convert.ToInt32(ReadLine());
@@ -44,8 +45,9 @@ namespace T15._1
                     Write("Enter weight in kg: ");
                     double weight = Convert.ToDouble(ReadLine());
                     sportsmens[i] = new Sportsmens(name, surname, tall, weight);
+                    sportsmens[i].Output();
                 }
-                Sportsmens.Output();
+                Sportsmens.GetCount();
             }
             catch (Exception ex)
             {
